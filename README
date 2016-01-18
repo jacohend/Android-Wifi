@@ -1,0 +1,7 @@
+These Android classes use reflection to programmatically manipulate wifi.
+
+WiFi.java connects to a particular WPA2 network with a given SSID and Password
+
+WifiAP.java can create a hotspot programmatically on certain devices
+
+Caveats: Not guaranteed to work on all devices due to Android fragmentation. WiFi.java still seems to work on Jelly Bean 4.2, but no newer devices have been tested.
